@@ -8,7 +8,7 @@ class SliderService {
 
   Future<void> getSlider() async {
     String url =
-        "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=cdaa96121f34b842195fc5c7be3f7469";
+        "Your APi Key";
 
     try {
       final response = await http.get(Uri.parse(url));
